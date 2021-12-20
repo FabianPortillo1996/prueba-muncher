@@ -21,11 +21,11 @@
         "spatie/laravel-fractal": "^5.7",
         "teamtnt/laravel-scout-tntsearch-driver": "^9.0",
         "tymon/jwt-auth": "^1.0",
-        "intervention/image": "^2.5"
+        "intervention/image": "^2.5",
+        "fakerphp/faker": "^1.9.1"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
-        "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.3.1",
         "nunomaduro/collision": "^4.3",
         "phpunit/phpunit": "^8.5.8|^9.3.3"
