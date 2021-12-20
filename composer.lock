@@ -1863,7 +1863,7 @@
             },
             "require": {
                 "php": ">=5.3.3",
-                "phpseclib/bcmath_compat": ">=1.0.3"
+                "phpseclib/bcmath_compat": "1.0.4"
             },
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "^0.9.0",

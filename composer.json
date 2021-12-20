@@ -17,7 +17,6 @@
         "darkaonline/l5-swagger": "^8.0",
         "laravel/telescope": "^3.5",
         "malhal/laravel-geographical": "^1.0",
-        "predis/predis": "^1.1",
         "simplesoftwareio/simple-qrcode": "~4",
         "spatie/laravel-fractal": "^5.7",
         "teamtnt/laravel-scout-tntsearch-driver": "^9.0",
