@@ -53,9 +53,31 @@ class ProductTransformer extends TransformerAbstract
             ->first();
         if ($resource)
             return [
-                'id' => $resource->id,
-                'url' => env('URL_STORAGE') . $resource->url,
-                'has_photo' => true
+                [
+                    'id' => $resource->id,
+                    'url' => env('URL_STORAGE') . $resource->url,
+                    'has_photo' => true
+                ],
+                [
+                    'id' => $resource->id,
+                    'url' => env('URL_STORAGE') . $resource->url,
+                    'has_photo' => true
+                ],
+                [
+                    'id' => $resource->id,
+                    'url' => env('URL_STORAGE') . $resource->url,
+                    'has_photo' => true
+                ],
+                [
+                    'id' => $resource->id,
+                    'url' => env('URL_STORAGE') . $resource->url,
+                    'has_photo' => true
+                ],
+                [
+                    'id' => $resource->id,
+                    'url' => env('URL_STORAGE') . $resource->url,
+                    'has_photo' => true
+                ]
             ];
         return [
             'has_photo' => false
@@ -85,6 +107,7 @@ class ProductTransformer extends TransformerAbstract
             'status' => $this->getStatus($product),
             'category' => $this->getCategory($product),
             'photo' => $this->getResource(TypeResource::PHOTO_PRODUCT, $product),
+            'discount' => 10
         ];
     }
 }
