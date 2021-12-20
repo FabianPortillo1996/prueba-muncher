@@ -72,11 +72,6 @@ class ProductTransformer extends TransformerAbstract
                     'id' => $resource->id,
                     'url' => env('URL_STORAGE') . $resource->url,
                     'has_photo' => true
-                ],
-                [
-                    'id' => $resource->id,
-                    'url' => env('URL_STORAGE') . $resource->url,
-                    'has_photo' => true
                 ]
             ];
         return [
